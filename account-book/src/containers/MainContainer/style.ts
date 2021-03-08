@@ -98,16 +98,10 @@ export const Title = styled.text`
     }
 `;
 
-export const FirstLoad = styled.div`
-    margin-top: 100px;
+export const IconPlace = styled.div`
+    display: flex;
+    justify-content: center;
     
-    animation: reverse-in 1s;
-    animation-delay: 0.3s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-
-    @keyframes reverse-in {
-        0% { opacity: 0; transform: perspective(2500px) rotateY(90deg) };
-        100% { opacity: 1; }
-    }
+    width: 80%;
+    margin: 5% 5%;
 `;
